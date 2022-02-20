@@ -1,0 +1,121 @@
+/* --------------max---------------- */
+@media screen and (max-width:992px) {
+    .headerCaption{
+        margin-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerCaption p{
+        max-width: 46% !important;
+    }
+   
+   
+   
+   
+   
+    .headerImgContainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .headerCaption p{
+        max-width: 61% !important;
+    }
+
+}
+
+@media screen and (max-width:496px){
+
+    .fa-bars{
+        display: block !important;
+    }
+    .toggleMenu{
+        width: 104%;
+    }
+    
+    .headerImg{
+        width: 320px !important;
+    }
+    .logoAndMenu ul{
+        display: none !important;
+
+    }
+    .logoAndMenu img{
+        width: 70px !important;
+    height: 45px !important;
+    }
+    h1,h2{
+        font-size: 2rem !important;
+        line-height: 38px !important;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: .7rem !important;
+        line-height: 16px !important;
+    }
+    .headerCaption p{
+        max-width: 72% !important;
+
+    }
+    .headerCaption input{
+        max-width: 60% !important;
+    }
+    .headerCaption button{
+        max-width: 30% !important;
+    }
+}
+
+@media screen and (max-width:400px){
+    .toggleMenu{
+        width: 105% !important;
+    }
+}
+
+
+
+/* ---------------min--------------- */
+
+@media screen and (min-width:992px){
+    /* -----------sec1--------------- */
+    .sec1Row{
+        flex-direction: row-reverse;
+    }
+    .sec1Caption{
+        text-align: left;
+    }
+    .sec1Caption p{
+        max-width: 60%;
+    }
+
+    .sec1MainImg{
+        width: 55%;
+        position: absolute; left: 38%;
+       
+    }
+
+    .sec1MainImgContainer{
+        text-align: right;
+    }
+
+    /* ----------------sec2----------- */
+    
+}
+
+
+@media screen and (min-width:576px){
+    .firstBox{
+        max-width: 22% !important;
+    }
+    .secondBox{
+        max-width: 22% !important;
+        position: absolute;
+    }
+    .thirdBox{
+        max-width: 22% !important;
+    }
+
+}

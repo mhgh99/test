@@ -1,0 +1,222 @@
+html{
+    box-sizing: border-box;
+}
+
+
+
+
+h1,h2{
+    font-family: Josefin Sans;
+    /* font-family: josefinBold; */
+    font-size: 2.7rem;
+    line-height: 52px;
+}
+h3,h4{
+    font-family: Cookie;
+    color: hsl(45deg 99% 63%);
+    /* font-size is mobile first designed */
+    font-size: 1.65rem;
+}
+
+
+p{
+    font-family: Poppins;
+    font-size: .8rem;
+    line-height:23px;
+
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+}
+
+
+
+
+
+
+header{
+
+}
+
+
+
+
+.logoAndMenu{
+    justify-content: space-around;
+    
+}
+.logoAndMenu img{
+    width: 55px;
+    height: 30px;
+    margin-top: 1%;
+}
+
+.logoAndMenu ul{
+    position: relative; right: 2.5%;
+}
+.logoAndMenu li{
+    margin-left: 30px;
+}
+.logoAndMenu a{
+    font-size: .8rem;
+}
+
+
+.headerCaption{
+    margin-left: 30%;
+}
+
+
+.headerCaption p{
+    max-width: 85%;
+}
+
+
+.headerCaption input{
+    box-shadow: 0px 5px 17.5px rgb(0 0 0 / 7%);
+    border: none;
+    width: 240px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 22px;
+    color: #b7b7b7;
+    font-weight: 400;
+}
+
+.btnPrimary{
+    box-shadow: 0px 10px 11.5px rgb(89 136 43 / 30%);
+    background-image: linear-gradient(90deg, #8cb560 0%, #639d2b 100%);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+
+.headerImg{
+    width: 460px;
+}
+
+/*-------- toggle menu start--------- */
+
+.toggleMenu{
+    
+    height: 250px;
+    background-image: linear-gradient(90deg, #8cb560 0%, #639d2b 100%);;
+    border-radius: 3px;
+    position: relative;
+    left: -7px;
+    top: -15px;
+    padding-left: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+.toggleMenu li{
+    border-bottom: 1px solid;
+    margin-bottom:20px ;
+    padding-bottom: 28px;
+    
+}
+
+.fa-bars{
+    position: absolute;
+    right: 2%;
+    display: none;
+    z-index: 2;
+}
+
+
+/* --------------sec1-------------- */
+
+.sec1MainImg{
+    max-width: 100%;
+}
+.sec1MainImgContainer{
+    position: relative;
+}
+
+.sec1Btn{
+    font-size: .7rem;
+    padding: 10px;
+    width: 125px;
+}
+
+
+
+
+
+
+/* ------------------sec2------------ */
+.firstBox{
+    background-color: #f8fbf5;
+    max-width: 75%;
+    border-radius: 5px;
+    height: 200px;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+.secondBox{
+    background-color: #f8fbf5;
+    max-width: 75%;
+    border-radius: 5px;
+    height: 200px;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+.thirdBox{
+    background-color: #f8fbf5;
+    max-width: 75%;
+    border-radius: 5px;
+    height: 200px;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+
+.sec2Row{
+    justify-content: space-around;
+}
+
+.boxh4
+{
+    font-family: Josefin Sans;
+    color: black;
+    margin: 10px 0;
+}
+.boxp{
+    max-width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* ---------------hovers------------ */
+.btnPrimary:hover{
+    background: rgb(99,157,43);
+background: linear-gradient(180deg, rgba(99,157,43,1) 0%, rgba(140,181,96,1) 100%);
+cursor: pointer;
+}
+
+
+
+
+
+/* ------------toggle classes-------- */
+/* --------------sec2---------------- */
+.boxActive{
+    background-color: white;
+    box-shadow: 0px 10px 21.5px rgba(182, 190, 196, 0.3);
+    border-bottom: 3.55px solid rgb(8, 177, 8);
+}
